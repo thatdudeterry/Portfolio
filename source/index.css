@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #7ebdc2  ;
+  margin: 0;
+  font-family: 'Urbanist',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.HamburgerMenu{
+  position: absolute;
+  right: 2%;
+  cursor: pointer;
+}
+
+/* Color palette
+https://coolors.co/palette/231f20-bb4430-7ebdc2-f3dfa2-efe6dd
+
+#231f20
+(35, 31, 32)
+"~ Raisin_black"
+#bb4430 
+(187, 68, 48)
+"~ Persian_red"
+#7ebdc2 
+"~ Verdigris"
+(126, 189, 194)
+#f3dfa2 
+(243, 223, 162)
+"~ Vanilla"
+#efe6dd 
+(239, 230, 221)
+"~ _Linen"
+*/
