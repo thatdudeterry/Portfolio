@@ -1,0 +1,96 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #7ebdc2 ;
+    padding: 30px 50px 30px 50px;
+}
+
+.NavLinks{
+    height: 15vh;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #231f20;
+}
+
+nav ul li a:hover{
+    color: #efe6dd ;
+    transition: .3s;
+}
+
+.MobileNavigation{
+    display: none;
+
+}
+
+@media (max-width: 700px){
+
+    .DesktopNavigation{
+        display: none;
+        
+    }
+    .MobileNavigation{
+        display: flex;
+        align-items: center;
+        height: 15vh;
+        background-color: #7ebdc2 ;
+        border-bottom: 5px solid #bb4430,
+    }
+
+    
+    .NavLinks{
+    background-color: #7ebdc2 ;
+    }
+
+    .NavLinks ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        background-color: #7ebdc2 ;
+        border-bottom: 5px solid #bb4430;
+        border-top: 3px solid #f3dfa2 ;
+        top: 15vh;
+        right: 0;
+        height: 50vh;
+        width: 100%;
+        background:#7ebdc2 ;
+    }
+
+/* Default: Show DesktopNavigation */
+.desktop-nav {
+	display: block;
+}
+
+.mobile-nav {
+	display: none;
+}
+
+/* For screens smaller than 768px, show MobileNavigation and hide DesktopNavigation */
+@media (max-width: 767px) {
+	.desktop-nav {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: block;
+	}
+}
+
+
+}
